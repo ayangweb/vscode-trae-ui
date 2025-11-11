@@ -1,0 +1,5 @@
+{
+  "Scss2css.compileOnSave": true,
+  "csscomb.formatOnSave": true,
+  "csscomb.preset": "yandex"
+}
