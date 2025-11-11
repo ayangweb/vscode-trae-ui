@@ -2,7 +2,7 @@ Hi 👋, I’m trying to make VS Code look like the first version of Trae IDE’
 
 ![](https://github.com/user-attachments/assets/c64130b8-70dd-4f0d-b119-4f75f37a91a4)
 
-### Preparation
+## Preparation
 
 - Install the [Trae Theme](https://marketplace.visualstudio.com/items?itemName=yoy0721.trae-theme) extension and select dark mode.
 
@@ -10,7 +10,7 @@ Hi 👋, I’m trying to make VS Code look like the first version of Trae IDE’
 
 - Install the [Custom UI Style](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style) extension.
 
-### How to Use
+## How to Use
 
 Download the `custom.css` file to your computer, then open VSCode's `settings.json` file and add the following content.
 
@@ -23,6 +23,6 @@ Download the `custom.css` file to your computer, then open VSCode's `settings.js
 ],
 ```
 
-### Contributing
+## Contributing
 
 Please install the two plugins recommended by your IDE, as specified in [.vscode/extensions.json](.vscode/extensions.json), and then you can freely modify the custom.scss file.
