@@ -14,7 +14,8 @@ Hi 👋, I’m trying to make VS Code look like the first version of Trae IDE’
 
 Download the `custom.css` file to your computer, then open VSCode's `settings.json` file and add the following content.
 
-> Important Note: `file://` is mandatory, please do not attempt to remove it.
+> ⚠️ Warning: `file://` is mandatory, please do not attempt to remove it.
+>
 > Please replace `xxx` with your own path.
 
 ```json
