@@ -21,7 +21,7 @@ Download the `custom.css` file to your computer, then open VSCode's `settings.js
 ```json
 "custom-ui-style.external.imports": [
     "file://xxx/custom.css"
-],
+]
 ```
 
 ## Contributing
