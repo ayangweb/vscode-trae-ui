@@ -26,4 +26,4 @@ Download the `custom.css` file to your computer, then open VSCode's `settings.js
 
 ## Contributing
 
-Please install the two plugins recommended by your IDE, as specified in [.vscode/extensions.json](.vscode/extensions.json), and then you can freely modify the `custom.scss` file.
+Please install the two extensions recommended by your IDE, as specified in [.vscode/extensions.json](.vscode/extensions.json), and then you can freely modify the `custom.scss` file.
