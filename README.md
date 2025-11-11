@@ -4,9 +4,11 @@ Hi 👋, I’m trying to make VS Code look like the first version of Trae IDE’
 
 ### Preparation
 
-Install the [Trae Theme](https://marketplace.visualstudio.com/items?itemName=yoy0721.trae-theme) extension and select dark mode.
-Install the [Seti File Trae Icon](https://marketplace.visualstudio.com/items?itemName=yanfeixin.king-trae-icon) extension.
-Install the [Custom UI Style](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style) extension.
+- Install the [Trae Theme](https://marketplace.visualstudio.com/items?itemName=yoy0721.trae-theme) extension and select dark mode.
+
+- Install the [Seti File Trae Icon](https://marketplace.visualstudio.com/items?itemName=yanfeixin.king-trae-icon) extension.
+
+- Install the [Custom UI Style](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style) extension.
 
 ### How to Use
 
