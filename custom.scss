@@ -13,15 +13,15 @@ $base-gap: 8px !important;
         > .monaco-scrollable-element {
           > .split-view-container {
             > .split-view-view {
-              // 顶部栏区域
+              // Top area
               &:first-of-type {
               }
 
-              // 内容区域
+              // Content area
               &:nth-of-type(3) {
                 > .monaco-grid-branch-node {
                   > .monaco-split-view2.horizontal {
-                    // 分割线
+                    // Divider
                     > .sash-container {
                       > .monaco-sash {
                         &:first-of-type {
@@ -40,7 +40,7 @@ $base-gap: 8px !important;
                     > .monaco-scrollable-element {
                       > .split-view-container {
                         > .split-view-view {
-                          // 左侧侧边栏区域
+                          // Left menu area
                           &:first-of-type {
                             > .part {
                               > .content {
@@ -106,7 +106,7 @@ $base-gap: 8px !important;
                             }
                           }
 
-                          // 左侧文件资源管理器区域
+                          // Left sidebar area
                           &:nth-of-type(2) {
                             &.visible {
                               + .split-view-view {
@@ -120,14 +120,14 @@ $base-gap: 8px !important;
                             }
                           }
 
-                          // 编辑器区域
+                          // Core area
                           &:nth-of-type(3) {
                             box-sizing: border-box !important;
                             padding-right: $base-gap;
 
                             > .monaco-grid-branch-node {
                               > .monaco-split-view2.vertical {
-                                // 分割线
+                                // Divider
                                 > .sash-container {
                                   > .monaco-sash {
                                     transform: translateY(4px);
@@ -141,7 +141,7 @@ $base-gap: 8px !important;
                                         border-radius: $base-gap;
                                       }
 
-                                      // 编辑区域
+                                      // Editor area
                                       &:first-of-type {
                                         > .part {
                                           height: calc(100% - 8px) !important;
@@ -149,14 +149,14 @@ $base-gap: 8px !important;
                                             > .grid-view-container {
                                               > .monaco-grid-view {
                                                 > .monaco-grid-branch-node {
-                                                  > .monaco-split-view2.vertical {
+                                                  > .monaco-split-view2 {
                                                     > .monaco-scrollable-element {
                                                       > .split-view-container {
                                                         > .split-view-view {
                                                           > .editor-group-container {
                                                             > .tabs {
                                                               box-sizing: border-box !important;
-                                                              padding: 7px !important;
+                                                              padding: $base-gap;
 
                                                               border-bottom: 1px
                                                                 solid;
@@ -217,9 +217,9 @@ $base-gap: 8px !important;
                                                               }
 
                                                               > .breadcrumbs-below-tabs {
-                                                                margin-top: 7px !important;
-
                                                                 > .breadcrumbs-control {
+                                                                  padding-top: $base-gap;
+
                                                                   > .monaco-scrollable-element {
                                                                     > .monaco-breadcrumbs {
                                                                       > .monaco-breadcrumb-item {
@@ -244,7 +244,7 @@ $base-gap: 8px !important;
                                         }
                                       }
 
-                                      // 终端区域
+                                      // Terminal area
                                       &:last-of-type {
                                         > .part {
                                           height: 100% !important;
@@ -260,7 +260,7 @@ $base-gap: 8px !important;
                             }
                           }
 
-                          // 聊天区域
+                          // Chat area
                           &:last-of-type {
                             box-sizing: border-box !important;
                             padding-right: $base-gap;
@@ -277,7 +277,7 @@ $base-gap: 8px !important;
                 }
               }
 
-              // 底部栏区域
+              // Bottom area
               &:last-of-type {
                 @include universal-color("background-color", 0.1);
 
