@@ -162,13 +162,14 @@ $base-gap: 8px !important;
                                                                 solid;
                                                               background-color: transparent !important;
 
-                                                              --editor-group-tab-height: 28px !important;
                                                               @include universal-color(
                                                                 "border-bottom-color",
                                                                 0.08
                                                               );
 
                                                               > .tabs-and-actions-container {
+                                                                --editor-group-tab-height: 28px;
+
                                                                 > .monaco-scrollable-element {
                                                                   > .tabs-container {
                                                                     gap: 4px !important;
@@ -217,6 +218,8 @@ $base-gap: 8px !important;
                                                               }
 
                                                               > .breadcrumbs-below-tabs {
+                                                                --editor-group-tab-height: 28px;
+
                                                                 > .breadcrumbs-control {
                                                                   padding-top: $base-gap;
 
@@ -288,6 +291,23 @@ $base-gap: 8px !important;
             }
           }
         }
+      }
+    }
+  }
+
+  // Button
+  .monaco-button {
+    border-radius: 4px !important;
+  }
+
+  .monaco-button-dropdown {
+    > .monaco-button {
+      &:first-of-type {
+        border-radius: 4px 0 0 4px !important;
+      }
+
+      &:last-of-type {
+        border-radius: 0 4px 4px 0 !important;
       }
     }
   }
