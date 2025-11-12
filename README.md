@@ -24,6 +24,8 @@ Download the `custom.css` file to your computer, then open VSCode's `settings.js
 ]
 ```
 
+Then press `CommandOrCtrl + Shift + P` to open the Command Palette, type `Custom UI Style: Reload`, select it, and restart VS Code.
+
 ## Contributing
 
 Please install the two extensions recommended by your IDE, as specified in [.vscode/extensions.json](.vscode/extensions.json), and then you can freely modify the `custom.scss` file.
